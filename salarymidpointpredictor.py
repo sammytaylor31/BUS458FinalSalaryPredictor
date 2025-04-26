@@ -14,10 +14,10 @@ with open("salary_predictor_decision_tree.pkl", "rb") as file:  # <-- updated mo
     model = joblib.load(file)
 
 # Title
-st.title("💼💰 Salary Midpoint Predictor 🌍🧠")
+st.title("💼💰 Salary Midpoint Predictor")
 
 # Description
-st.write("🔍 This app predicts a data scientist’s **estimated salary midpoint** (in dollars 💵) based on your background and experience. Fill in your details below! 👇")
+st.write("🔍 This app predicts a data scientist’s **estimated salary midpoint** (in dollars 💵) based on background and experience.")
 
 # Input fields
 country = st.selectbox("🌎 Country", ["United States", "India", "United Kingdom", "Germany", "Canada", "Other"])

@@ -10,7 +10,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-with open("Downloads\salary_predictor_decision_tree.pkl", "rb") as file:  # <-- updated model filename
+with open("salary_predictor_decision_tree.pkl", "rb") as file:  # <-- updated model filename
     model = joblib.load(file)
 
 # Title
